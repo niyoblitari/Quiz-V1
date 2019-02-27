@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="hintUserName">User Name</string>
+    <string name="hintPassWord">Password</string>
+    <string name="hintEmail">Email</string>
+    <string name="signUp">Sign Up</string>
+    <string name="signIn">Sign In</string>
+</resources>
