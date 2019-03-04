@@ -2,7 +2,6 @@ package blitari.niyo.quizapp;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -68,9 +67,7 @@ public class MainActivity extends AppCompatActivity {
                     if (!user.isEmpty()) {
                         User login = dataSnapshot.child(user).getValue(User.class);
                         if (login.getPassWord().equals(pwd)) {
-                            Intent homeActivity = new Intent(MainActivity.this, Home.class);
-                            startActivity(homeActivity);
-                            finish();
+                            Toast.makeText(MainActivity.this, "Login ok !", Toast.LENGTH_SHORT).show();
                         } else {
                             Toast.makeText(MainActivity.this, "Wrong username or password", Toast.LENGTH_SHORT).show();
                         }

@@ -5,12 +5,4 @@
     <string name="hintEmail">Email</string>
     <string name="signUp">Sign Up</string>
     <string name="signIn">Sign In</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="categories">Categories</string>
-    <string name="ranking">Ranking</string>
-    <string name="this_is_ranking_page">This is Ranking Page</string>
-    <string name="category_image">Category Image</string>
-    <string name="category_name">Category Name</string>
 </resources>
